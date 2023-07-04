@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Concepts< - Rectangle</title>
+</head>
+<body>
+  <!--
+    svg consider the top right coordinates of a previous
+    swg as the top left corner of the screen
+  -->
+  <svg width="400" height="300">
+    <!--
+      required params are : width and height
+      coords: x and y
+      round corners: rx & ry
+    -->
+    <rect
+            x = "20"
+            y = "50"
+            height="100"
+            width="75"></rect>
+  </svg>
+  <!-- adding another svg -->
+  <svg width="150" height="300">
+    <rect
+            width="40"
+            height="75"
+            rx ="5"
+            ry="7"
+    ></rect>
+  </svg>
+</body>
+</html>

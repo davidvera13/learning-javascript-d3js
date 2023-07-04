@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Concepts< - Polyline</title>
+  <style>
+    polyline.noFill {
+      fill: none;
+      stroke: blueviolet;
+      stroke-width: 2px;
+    }
+    polyline.withFill {
+      fill: blueviolet;
+      stroke: blueviolet;
+    }
+  </style>
+</head>
+<body>
+  <svg width="300" height="300">
+    <!--
+      points are set of coordinates x and y
+    -->
+    <polyline
+            class="noFill"
+            points="0, 3, 30, 3, 30, 30, 60, 30, 60, 60, 90, 60, 90, 90, 120, 90"></polyline>
+  </svg>
+
+  <svg width="300" height="300">
+    <!--
+      points are set of coordinates x and y
+    -->
+    <polyline
+            class="withFill"
+            points="0, 3, 30, 3, 30, 30, 60, 30, 60, 60, 90, 60, 90, 90, 120, 90"></polyline>
+  </svg>
+
+</body>
+</html>

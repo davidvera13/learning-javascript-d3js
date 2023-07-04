@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Concepts< - Transform</title>
+  <style>
+    g {
+      fill: crimson;
+      transform: rotate(20deg);
+    }
+    rect.custom {
+      fill: orange;
+      transform: rotate(-20deg);
+    }
+  </style>
+</head>
+<body>
+  <svg width="300" height="300">
+    <g>
+      <rect width="250" height="150" x="25" y="25" class="custom"></rect>
+      <text x='0' y='15'>Combined with a rectangle</text>
+      <!-- Comment out the rect and text in css file to see the effects of the 'g' element -->
+    </g>
+  </svg>
+</body>
+</html>

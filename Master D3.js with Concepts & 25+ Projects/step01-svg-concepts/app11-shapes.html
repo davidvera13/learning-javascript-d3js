@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Concepts< - Shapes</title>
+  <style>
+    path.without-fill {
+      fill: none;
+      stroke: blueviolet;
+      stroke-width: 2px;
+    }
+  </style>
+</head>
+<body>
+  <svg width="300" height="300">
+    <!-- The most complex element in SVG. The following commands are available for path data:
+      M = moveto
+      L = lineto
+      H = horizontal lineto
+      V = vertical lineto
+      C = curveto
+      S = smooth curveto
+      Q = quadratic Bézier curve
+      T = smooth quadratic Bézier curveto
+      A = elliptical Arc
+      Z = closepath
+
+      Note: All of the commands above can also be expressed with lower letters. Capital letters means absolutely positioned, lower cases means relatively positioned.
+      -->
+    <path d="M130,0 L60,200 L200,200 Z"></path>
+  </svg>
+  <svg width="300" height="300">
+    <path d="M130, 0, C30, 90, 25, 10, 50, 10"></path>
+  </svg>
+  <svg width="300" height="300">
+    <path d="M130, 0, C30, 90, 25, 10, 50, 10 Z" class="without-fill"></path>
+  </svg>
+</body>
+</html>

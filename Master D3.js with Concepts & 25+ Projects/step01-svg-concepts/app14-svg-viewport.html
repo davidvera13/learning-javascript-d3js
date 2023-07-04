@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Concepts - SVG Viewport</title>
+  <style>
+    g {
+      fill: crimson;
+      transform: rotate(20deg);
+    }
+    rect.custom {
+      fill: orange;
+      transform: rotate(-20deg);
+    }
+  </style>
+</head>
+<body>
+  <!--
+    x and y refer to top left corner of the rectangle
+    be aware that viewbox is modifying the the coordinates of the origin of the swg element
+    the 2 last values are acting like a zoom ....
+  -->
+  <svg width="300" height="300" viewBox="0, -100, 80, 250">
+    <rect
+            width="50"
+            height="100"
+            x="25"
+            y="25">
+    </rect>
+  </svg>
+</body>
+</html>
