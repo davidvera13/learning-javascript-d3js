@@ -1,0 +1,12 @@
+line {
+    stroke: brown;
+}
+.stroke-width {
+    width: 10px;
+}
+.stroke-opacity {
+    opacity: 0.5;
+}
+.dashed-array {
+    stroke-dasharray:  10 10;
+}
