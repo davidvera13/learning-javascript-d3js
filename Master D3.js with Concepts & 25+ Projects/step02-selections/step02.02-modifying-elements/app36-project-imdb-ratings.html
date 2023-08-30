@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Project-2: Modifying Elements - Imdb rating</title>
+    <link rel="stylesheet" href="css/app36-project-imdb-ratings.css">
+</head>
+
+<body>
+
+<svg id="container">
+    <div id="title">
+        <h1>Mini Project-2: Modifying Elements - Imdb rating</h1>
+        <p>Top 10 grossing english movies for 2019</p>
+    </div>
+
+    <div id="movieInfo">
+        <div id="movieList"></div>
+        <div id="moviePost"></div>
+    </div>
+
+    <form id="choiceSubmit">
+        <label>U</label>
+        <input id="cbu" type="checkbox" />
+
+        <label>15</label>
+        <input id='cb15' type="checkbox">
+
+        <label>12A</label>
+        <input id='cb12a' type="checkbox">
+
+        <label>PG</label>
+        <input id='cbpg' type="checkbox">
+
+        <br>
+        <input id="submit" value="Submit" type="submit">
+    </form>
+
+    <p id="feedback"> </p>
+
+    <div id="chart">
+        <div id="cont"></div>
+        <div id="legend"></div>
+        <svg id="gross"></svg>
+        <svg id="dura"></svg>
+        <svg id="votes"></svg>
+    </div>
+
+</div>
+
+<script src="../../libs/d3.v7.min.js"></script>
+<script src="js/app36-project-imdb-ratings-data.js"></script>
+<script src="js/app36-project-imdb-ratings.js"></script>
+</body>
