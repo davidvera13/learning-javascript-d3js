@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cars price depreciation</title>
+    <link rel="stylesheet" href="css/app60-power-scale-project-cars-price-depreciation.css">
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h1 style="color: dimgray; text-align: center;">Depreciation Chart of Cars</h1>
+        </div>
+        <div id="header">
+            <label for="cost">Vehicle Cost ($):</label>
+            <input type="text" id="cost">
+            <label for="rate">Exponential Depreciation Rate (%):</label>
+            <input type="text" id="rate">
+            <button type="submit">CHECK</button>
+        </div>
+        <div id="chart">
+            <svg></svg>
+        </div>
+    </div>
+
+    <script src="../../libs/d3.v7.min.js"></script>
+    <script src="js/app60-power-scale-project-cars-price-depreciation-data.js"></script>
+    <script src="js/app60-power-scale-project-cars-price-depreciation.js"></script>
+</body>
+</html>
