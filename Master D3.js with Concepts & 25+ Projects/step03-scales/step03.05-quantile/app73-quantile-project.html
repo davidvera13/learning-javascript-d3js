@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Quantile - Air Quality Check</title>
+    <link rel="stylesheet" href="css/app73-quantile-project.css">
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header">
+        <h2>Air Quality Check</h2>
+    </div>
+    <hr>
+    <div id="input">
+        <p>Enter a value >= 0</p>
+        <hr>
+        <p>A value of > 179 means that you need to leave that place!</p>
+        <hr>
+        <p>(Value is Particulate Matter in &micro;g/m<sup>3</sup>)</p>
+        <input type="text">
+        <button>GO</button>
+    </div>
+
+    <hr>
+    <div id="output">
+        <svg>
+            <rect></rect>
+        </svg>
+        <p></p>
+    </div>
+
+</div>
+
+
+
+<script src="../../libs/d3.v7.min.js"></script>
+<script src="js/app73-quantile-project.js"></script>
+</body>
+
+</html>
