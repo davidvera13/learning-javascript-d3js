@@ -254,7 +254,6 @@ console.log("interpolate(0.5)", interpolate(0.5));
 console.log("interpolate(0.75)", interpolate(0.75));
 console.log("interpolate(1)", interpolate(1));
 
-
 console.log("d3.interpolateRound('Red', 'Blue')", interpolateRound)
 console.log("interpolateRound(0)", interpolateRound(0));
 console.log("interpolateRound(0.25)", interpolateRound(0.25));
